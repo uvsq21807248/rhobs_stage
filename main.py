@@ -1,7 +1,7 @@
 import datetime
 import json
 
-#
+#la fonction List_music retourne la liste des différents  musiques qui existe
 def List_music():
     with open('data_rhobs.json', 'r') as j:
         json_data = json.load(j)
